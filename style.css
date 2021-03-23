@@ -1,0 +1,186 @@
+body{
+	font-family: "Poppins", sans-serif;
+	margin: 0;
+	line-height: 1.5;
+	font-size: 16px;
+}
+.menu{
+	font-weight: bold;
+	color: white;
+	background-color: purple;
+	border-radius: 28px;
+	padding: 10px 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+}
+.menu a{
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	padding: 8px 16px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.menu a:hover{
+	background-color: white;
+	color: black;
+	border-radius: 20px;
+}
+.main h1{
+	font-size: 64px;
+	font-weight: 400;
+	text-align: left;
+}
+.main{
+	margin: 0 auto;
+	margin-top: 80px;
+	width: 80%;
+	margin-left: 300px;
+	text-align: left;
+}
+.main hr{
+	width: 100%;
+	border-radius: 15px;
+	border: 5px solid purple;
+	margin: 20px 0;
+}
+
+
+h2{
+	color: purple;
+	font-size: 48px;
+	font-weight: 400;
+	text-align: left;
+}
+.images img{
+	width: 45%;
+	border-radius: 10px;
+	margin: 5px;
+	opacity: 0.7;
+}
+.images img:hover{
+	opacity: 1;
+}
+.chosen{
+	font-weight: bold;
+}
+.member{
+	display: inline-block;
+	width: 30%;
+	text-align: left;
+	margin: 0 10px;
+}
+.member img{
+	border-radius: 16px;
+	width: 100%;
+	filter: grayscale(30%);
+}
+.description{
+	background-color: lightgrey;
+	border-radius: 10px;
+	padding: 10px;
+}
+.position{
+	color: gray;
+}
+
+.tariff ul{
+	list-style-type: none;
+	display: inline-block;
+	width: 45%;
+	text-align: center;
+	background-color: #DCDCDC;
+	border-radius: 10px;
+	padding: 0;
+	margin: 0 20px;
+}
+.tariff li{
+	padding: 16px 0;
+	border-bottom: 1px #D3D3D3 solid;
+	border-radius: 18px;
+}
+.tariff .tariff-name{
+	padding: 30px 0;
+	background-color: purple;
+	font-size: 24px;
+	color: white;
+}
+.tariff .tariff-name1{
+	padding: 30px 0;
+	background-color: #FF4500;
+	font-size: 24px;
+	color: white;
+}
+.ruble{
+	font-size: 36px;
+}
+.day{
+opacity: 0.6;
+}
+.sign a{
+	padding: 8px 16px;
+	background-color: purple;
+	border-radius: 20px;
+	text-decoration: none;
+	color: white;
+}
+.sign a:hover{
+	padding: 8px 16px;
+	background-color: white;
+	border-radius: 20px;
+	text-decoration: none;
+	color: purple;
+}
+.sign1 a{
+	padding: 8px 16px;
+	background-color: #FF4500;
+	border-radius: 20px;
+	text-decoration: none;
+	color: white;
+}
+.sign1 a:hover{
+	padding: 8px 16px;
+	background-color: white;
+	border-radius: 20px;
+	text-decoration: none;
+	color: #FF4500;
+}
+.form input{
+	display: block;
+	width: 100%;
+	outline: none;
+	border: 1px gray solid;
+	margin: 15px 0;
+	height: 35px;
+}
+.submit{
+	border: 0;
+	border-radius: 20px;
+	background-color: purple;
+	color: white;
+}
+.submit:hover{
+	border: 0;
+	border-radius: 20px;
+	background-color: #BA55D3;
+	color: white;
+	cursor: pointer;
+}
+.submit:active{
+	border: 0;
+	border-radius: 20px;
+	background-color: #DCDCDC;
+	color: black;
+	cursor: pointer;
+}
+.footer{
+	text-align: right;
+	background-color: #DCDCDC;
+	padding: 42px 24px;
+}
+.footer a{
+	text-decoration: underline;
+	color: black;
+}
